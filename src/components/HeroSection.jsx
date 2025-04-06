@@ -18,9 +18,12 @@ const HeroSection = () => {
             <button className={styles.whiteBtnLarge}>Shop Now</button>
           </div>
         </div>
-
         <figure className={styles.heroImgWrapper}>
-          <img src={heroImage} alt="mobile-phone" className={styles.heroImg} />
+          <img
+            src={heroImage}
+            alt="mobile-phone"
+            className={styles.heroImg}
+          />
         </figure>
       </div>
     </section>
